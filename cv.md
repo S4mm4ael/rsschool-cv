@@ -45,4 +45,4 @@ My strong sides are:
   - [BNTU Tecnical English course](https://bntu.by/all-services/languages)
  
  ## __English__
-__A2__ (I had been practicing English, when I attended Tecnical English courses) 
+ - __A2__ (I had been practicing English, when I attended Tecnical English courses) 
