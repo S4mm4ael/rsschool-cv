@@ -1,2 +1,71 @@
-h1{
+html {
+    scroll-behavior: smooth; 
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #66377c;
+}
+.header{
+    border: 1px solid red;
+}
+.main{
+    border: 1px solid red;
+}
+.footer{
+
+    border: 1px solid red;   
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    transition: .3s;
+}
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #4d2323;
+}
+.section-list{
+    list-style: none;
+}
+
+
+/* Не забыть cursor: pointer для всего кроме ссылок, что интерактивно */
