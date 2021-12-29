@@ -44,8 +44,11 @@ h3{
     margin: 0 auto;
 }
 .main-container {
+    align-items: center;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    flex-basis: fit-content;
 }
 .section {
     padding: 10px;
@@ -60,6 +63,11 @@ h3{
       width: 100%;
     }
   }
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav-list {
     display: flex;
     justify-content: flex-end;
