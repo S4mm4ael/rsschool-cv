@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets\img\favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <title>Semion Krapivin CV</title>
 </head>
 <body>
@@ -24,21 +24,22 @@
           <li class="nav-item"><a href="#english-level" class="nav-link">English</a></li>
         </ul>
       </nav>
-      <div class="name">
-        <h1>Semion Krapivin</h1>
-        <h2>Front-end developer</h2>
-      </div>
-      <img src="img/photo.png" alt="Photo" class="photo">
-    </div>
+     </div>
   </header>
   <main class="main">
     <div class="container main-container">
+      <section class="section" id="profile">
+        <img src="assets/img/photo.png" alt="Photo" class="photo">
+        <div class="name">
+          <h1>Semion Krapivin</h1>
+          <h2>Front-end developer</h2>
+        </div>
+      </section>
       <section class="section" id="contacts">
         <h3 class="section-title">Contacts</h3>
         <ul class="section-list">
           <li>+375 44 725-30-87</li>
           <li>homer1996@gmail.com</li>
-          <li>[S4mm4ael](https://github.com/S4mm4ael)</li>
           <li>Minsk, Belarus</li>
         </ul>
       </section>
@@ -66,6 +67,17 @@
       </section>
       <section class="section" id="code-example">
         <h3 class="section-title">Code example</h3>
+        <pre class="code">
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+            &nbsp&nbsp&lt;title&gt;Code example&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &nbsp&nbsp&lt;p&gt;Hello world!&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </pre>
       </section>
       <section class="section" id="education">
         <h3 class="section-title">Education</h3>
@@ -96,7 +108,20 @@
     </div>
   </main>
   <footer class="footer">
-    <div class="container"></div>
+    <div class="container">
+      <div class="social-footer-icons">
+        <ul class="social-list">
+          <li class="social-item"><a href="https://www.facebook.com/"><img  src="assets/img/facebook.svg" class="social-logo" alt="facebook"></img></a></li>
+          <li class="social-item"><a href="https://www.instagram.com/?hl=en"><img src="assets/img/instagram.svg" class="social-logo" alt="instagram"></img></a></li>
+          <li class="social-item"><a href="https://www.twitter.com/"><img src="assets/img/twitter.svg" class="social-logo" alt="twitter"></img></a></li>
+          <li class="social-item"><a href="https://github.com/S4mm4ael"><img src="assets/img/github.svg" class="social-logo" alt="github"></img></a></li>
+        </ul>
+      </div>
+      <p class="credits">© 2021 Semion Krapivin</p>
+      <div class="rss-footer"
+        <a href="https://rs.school/" style="rss-link"><img class="rss-logo" src="assets/img/rs_school.svg" alt="rss"></a>
+      </div> 
+    </div>
   </footer>
 </body>
 </html>
