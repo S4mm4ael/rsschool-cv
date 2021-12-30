@@ -15,11 +15,15 @@ body{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    color: #66377c;
+    background-color: #212021;
+    color: #212021;
+}
+a{
+    color: #e7e7e6;
 }
 h1{
     font-size: 54px;
-    border-bottom: 2px solid #4d2323 ;
+    border-bottom: 2px solid #212021 ;
 }
 h2{
     font-size: 36px;
@@ -29,15 +33,11 @@ h3{
     font-size: 24px;
     border-bottom: 2px solid #4d2323 ;
 }
-.header{
-    border: 1px solid red; 
-}
-.main{
-    border: 1px solid red;
-}
-.footer{
-    border: 1px solid red;   
+.footer-container{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #334142;
 }
 .container {
     max-width: 1440px;
@@ -52,10 +52,10 @@ h3{
 }
 .section {
     padding: 10px;
-   
-    /*border: 1px solid red;*/ 
-    border-radius: 10px;  
+    margin: 10px; 
     width: 50%;
+    background-color: #e7e7e6;
+    box-shadow: 10px 5px 5px #000000;
 
 }
 @media (max-width: 768px) {
@@ -67,10 +67,12 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #334142;
 }
 .nav-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
 }
@@ -81,7 +83,7 @@ h3{
     transition: .3s;
 }
 .nav-item:hover{
-    background: #cb8fe7;
+    background: #bc6368;
     transition: all 300ms;
 }
 .section-item a {
@@ -89,17 +91,14 @@ h3{
     text-decoration: none;  
     transition: color 0.5s;
 }
-.section-item a:hover {
-    color: #4d2323;
-}
 .section-list{
     list-style: none;
 }
 .code{
     display: block;
     font-family: monospace;
-    background: #9163ac;
-    color: #ffffff;
+    background: #000000;
+    color: #bc6368;
     white-space: pre-line;
 }
 .photo{
@@ -107,7 +106,7 @@ h3{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    box-shadow: 0 5px 10px rgb(0 0 0 / 60%);
+    box-shadow: 0 5px 10px #000000;
 }
 .name{
     display: flex;
@@ -124,7 +123,14 @@ h3{
     justify-content: space-around;
     padding: 20px;
 }
-
+.courses-item a{
+    color: #334142;
+    text-decoration: none;
+}
+.courses-item a:hover{
+    background: #bc6368;
+    transition: all 300ms;
+}
 /* Не забыть cursor: pointer для всего кроме ссылок, что интерактивно */
 
 .rss-footer{
@@ -154,4 +160,20 @@ h3{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    color: #e7e7e6;
+}
+.about-list{
+    display: block;
+    list-style-type: disc;
+    list-style-position:inside;
+}
+.skills-list{
+    display: block;
+    list-style-type: disc;
+    list-style-position:inside;
+}
+.education-list{
+    display: block;
+    list-style-type: disc;
+    list-style-position:inside;
 }
