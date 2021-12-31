@@ -1,18 +1,21 @@
+/* Не забыть cursor: pointer для всего кроме ссылок, что интерактивно */
+/* Фото норм разрешения закинуть */
+/* Ссылки на соцсети */
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;   
 }
 * {
-    margin: 0;
+    margin: 5px 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
     background-color: #212021;
@@ -30,8 +33,15 @@ h2{
 }
 
 h3{
+    display: flex;
+    vertical-align: baseline;
     font-size: 24px;
     border-bottom: 2px solid #4d2323 ;
+}
+.container {
+    max-width: 1440px;
+    min-width: 100px;
+    margin: 0 auto;
 }
 .footer-container{
     display: flex;
@@ -39,24 +49,26 @@ h3{
     justify-content: center;
     background-color: #334142;
 }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
 .main-container {
-    align-items: center;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
     flex-wrap: wrap;
-    flex-basis: fit-content;
+    /*flex-basis: fit-content;*/
+    justify-content: space-between;
 }
 .section {
     padding: 10px;
-    margin: 10px; 
-    width: 50%;
+    margin: 1% 0; 
+    width: calc(50% - 10px);
     background-color: #e7e7e6;
     box-shadow: 10px 5px 5px #000000;
-
+}
+.section-about{
+    width: 100%;
+}
+.section-education{
+    width: 100%;
 }
 @media (max-width: 768px) {
     .section {
@@ -113,14 +125,13 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    text-align: center;
-    
+    text-align: center;  
 }
-#profile{
+.section-profile{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: space-around;
+    width: 100%;
     padding: 20px;
 }
 .courses-item a{
@@ -131,8 +142,6 @@ h3{
     background: #bc6368;
     transition: all 300ms;
 }
-/* Не забыть cursor: pointer для всего кроме ссылок, что интерактивно */
-
 .rss-footer{
     width: 100px;
     margin-left: auto;
@@ -140,16 +149,27 @@ h3{
     text-align: center;
 }
 .rss-logo{
-  width: 100px;  
+    width: 100px;  
 }
+.rss-logo:hover{
+    filter: invert(1);
+    transition: all 300ms; 
+  }
 .rss-link{
     display: block;
+    text-align: center;
 }
 .social-logo{
+    margin: 15px;
     width: 40px;
     height: 40px;
-    margin: 15px;
+    border-radius: 50%;
 }
+.social-logo:hover{
+    filter: invert(1);
+    transition: all 300ms;
+}
+
 .social-list {
     display: flex;
     justify-content: center;
@@ -162,18 +182,54 @@ h3{
     text-align: center;
     color: #e7e7e6;
 }
-.about-list{
+.list{
     display: block;
     list-style-type: disc;
     list-style-position:inside;
 }
-.skills-list{
-    display: block;
-    list-style-type: disc;
-    list-style-position:inside;
+.contacts-list{
+    list-style-type: none;
+    font-weight: 800;
 }
-.education-list{
+.contacts-item {
+    position: relative;
+    margin-left: 30px;
+}
+.contacts-item a{
+    text-decoration: none;
+    color: #212021;
+}
+.contacts-item:before{
+    content: "";
+    position: absolute;
+    left: -25px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+.contacts-item:nth-child(1):before{
+    background-image: url(assets/img/tel.png);
+}
+.contacts-item:nth-child(2):before{
+    background-image: url(assets/img/mail.png);
+}
+.contacts-item:nth-child(3):before{
+    background-image: url(assets/img/location.png);
+}
+.contacts-item a:hover{
+    background: #bc6368;
+    transition: all 300ms;
+}
+.languages-bold{
+    font-weight: 700;
+}
+.icons-credits{
     display: block;
-    list-style-type: disc;
-    list-style-position:inside;
+}
+.icon{
+    margin-top: 2px;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
 }

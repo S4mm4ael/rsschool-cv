@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <title>Semion Krapivin CV</title>
 </head>
-<body>
   <header class="header">
     <div class="container header-container">
       <nav class="nav">
@@ -21,53 +20,76 @@
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
           <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#english-level" class="nav-link">English</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
       </nav>
      </div>
   </header>
   <main class="main">
     <div class="container main-container">
-      <section class="section" id="profile">
+      <section class="section section-profile" id="profile">
         <img src="assets/img/photo.png" alt="Photo" class="photo">
         <div class="name">
           <h1>Semion Krapivin</h1>
-          <h2>Front-end developer</h2>
+          <h2>Junior Front-end developer</h2>
         </div>
       </section>
       <section class="section" id="contacts">
-        <h3 class="section-title">Contacts</h3>
-        <ul class="section-list">
-          <li>+375 44 725-30-87</li>
-          <li>homer1996@gmail.com</li>
-          <li>Minsk, Belarus</li>
-        </ul>
-      </section>
-      <section class="section" id="about">
-        <h3 class="section-title">About me</h3>
-        <p>
-          I'm new to front-end development, I'm here to test my strength and motivation in a new profession.
-        </p>  
-        <ul class="about-list">
-          <h4>My strenghts:</h4>
-          <li>Good communication skills;</li>
-          <li>Skill to work in team;</li>
-          <li>Responsibility;</li>
-          <li>Dependability;</li>
-          <li>Great willing to learn and develop new skills;</li>
+        <h3 class="section-title"><img class="icon" src="assets/img/contacts.svg"> Contacts</h3>
+        <ul class="list contacts-list">
+          <li class="contacts-item"><a  href="tel:+3754437253087">+375 (44) 725-30-87</a></li>
+          <li class="contacts-item"><a  href="mailto:homer1996@gmail.com">homer1996@gmail.com</a></li>
+          <li class="contacts-item">Minsk, Belarus</li>
         </ul>
       </section>
       <section class="section" id="skills">
-        <h3 class="section-title">Skills</h3>
-        <ul class="skills-list">
+        <h3 class="section-title"><img class="icon" src="assets/img/skills.svg">Skills</h3>
+        <ul class="list skills-list">
           <li>HTML (Basic)</li>
           <li>CSS (Basic)</li>
           <li>JavaScript (Basic)</li>
           <li>Git (Basic)</li>
         </ul>
       </section>
+      <section class="section section-about" id="about">
+        <h3 class="section-title"><img class="icon" src="assets/img/cat.svg">About me</h3>
+        <p>
+          I'm 25 years old design engineer in energy producing industry. 
+          I'm new to front-end development, I'm here to test my strength and motivation in a new profession.
+        </p>  
+        <ul class="list about-list">
+          <h4>My strenghts:</h4>
+          <li>Good communication skills</li>
+          <li>Skill to work in team</li>
+          <li>Responsibility</li>
+          <li>Dependability</li>
+          <li>Great willing to learn and develop new skills</li>
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h3 class="section-title"><img class="icon" src="assets/img/edu.svg">Education</h3>
+        <ul class="section-list">
+          <li>
+            <h4>College</h4>
+            <p>Minsk State Architectural and Сonstruction college, Industrial and Civil Construction major</p>
+          </li>
+          <li>
+            <h4>University</h4>
+            <p>National Technical University, Power Plants Engineering major</p>
+          </li>
+          <ul class="list education-list">
+            <h4>Courses</h4>
+            <li class="courses-item"><a href="https://www.sololearn.com/Play/HTML/hoc">Sololearn HTML</a>
+            </li>
+            <li class="courses-item"><a href="https://www.sololearn.com/Play/CSS/hoc">Sololearn CSS</a>
+            </li>
+            <li class="courses-item"><a href="https://bntu.by/all-services/languages">BNTU Tecnical English course</a>
+            </li>
+          </ul>
+        </ul>
+      </section>
       <section class="section" id="code-example">
-        <h3 class="section-title">Code example</h3>
+        <h3 class="section-title"><img class="icon" src="assets/img/code.svg">Code example</h3>
         <pre class="code">
             &lt;!DOCTYPE html&gt;
             &lt;html&gt;
@@ -80,31 +102,16 @@
             &lt;/html&gt;
         </pre>
       </section>
-      <section class="section" id="education">
-        <h3 class="section-title">Education</h3>
-        <ul class="section-list">
-          <li>
-            <h4>College</h4>
-            <p>Minsk State Architectural and Сonstruction college, Industrial and Civil Construction major</p>
+      <section class="section" id="languages">
+        <h3 class="section-title"><img class="icon" src="assets/img/lang-com.svg">Languages</h3>
+        <ul class="list languages-list">
+          <li class="languages-item"><span class="languages-bold">English - A2</span> 
           </li>
-          <li>
-            <h4>University</h4>
-            <p>National Technical University, Power Plants Engineering major;</p>
+          <li class="languages-item"><span class="languages-bold">Belarusian - Native</span> 
           </li>
-          <ul class="education-list">
-            <h4>Courses</h4>
-            <li class="courses-item"><a href="https://www.sololearn.com/Play/HTML/hoc">Sololearn HTML</a>
-            </li>
-            <li class="courses-item"><a href="https://www.sololearn.com/Play/CSS/hoc">Sololearn CSS</a>
-            </li>
-            <li class="courses-item"><a href="https://bntu.by/all-services/languages">BNTU Tecnical English course</a>
-            </li>
-          </ul>
+          <li class="languages-item"><span class="languages-bold">Russian - Native</span> 
+          </li>
         </ul>
-      </section>
-      <section class="section" id="english-level">
-        <h3 class="section-title">English level</h3>
-        <p>Estimated level: A2 (I had been practicing English, when I attended Tecnical English courses)</p>
       </section>
     </div>
   </main>
@@ -112,17 +119,15 @@
     <div class="container footer-container">
       <div class="social-footer-icons">
         <ul class="social-list">
-          <li class="social-item"><a href="https://www.facebook.com/"><img  src="assets/img/facebook.svg" class="social-logo" alt="facebook"></img></a></li>
-          <li class="social-item"><a href="https://www.instagram.com/?hl=en"><img src="assets/img/instagram.svg" class="social-logo" alt="instagram"></img></a></li>
-          <li class="social-item"><a href="https://www.twitter.com/"><img src="assets/img/twitter.svg" class="social-logo" alt="twitter"></img></a></li>
-          <li class="social-item"><a href="https://github.com/S4mm4ael"><img src="assets/img/github.svg" class="social-logo" alt="github"></img></a></li>
+          <li class="social-item"><a href="https://www.facebook.com/"><img class="social-logo" src="assets/img/facebook.svg"  alt="facebook"></img></a></li>
+          <li class="social-item"><a href="https://www.instagram.com/?hl=en"><img class="social-logo" src="assets/img/instagram.svg" alt="instagram"></img></a></li>
+          <li class="social-item"><a href="https://www.twitter.com/"><img class="social-logo"  src="assets/img/twitter.svg" alt="twitter"></img></a></li>
+          <li class="social-item"><a href="https://github.com/S4mm4ael"><img class="social-logo" src="assets/img/github.svg" alt="github"></img></a></li>
         </ul>
       </div>
+      <a class="rss-link" href="https://rs.school/"><img class="rss-logo" src="assets/img/rs_school.svg" alt="rss"></a>
       <p class="credits">© 2021 Semion Krapivin</p>
-      <div class="rss-footer"
-        <a href="https://rs.school/" class="rss-link"><img class="rss-logo" src="assets/img/rs_school.svg" alt="rss"></a>
-      </div> 
-    </div>
+  </div>
   </footer>
 </body>
 </html>

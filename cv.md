@@ -7,7 +7,8 @@
 - __GitHub__: _[S4mm4ael](https://github.com/S4mm4ael)_
 
 ## __About Me__
-I'm new to front-end development, I'm here to test my strength and motivation in a new profession.
+I'm 25 years old design engineer in energy producing industry. 
+I'm new to front-end development, so my goal here is to test my strength and motivation in a new profession.
 My strong sides are:
 - Good communication skills;
 - Skill to work in team;
@@ -45,4 +46,6 @@ My strong sides are:
   - [BNTU Tecnical English course](https://bntu.by/all-services/languages)
  
  ## __English__
- - __A2__ (I had been practicing English, when I attended Tecnical English courses) 
+- __English__ - __A2__ (I had been practicing English, when I attended Tecnical English courses).
+- __Belarusian__ - __Native__
+- __Russian__ - __Native__ 
