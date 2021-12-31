@@ -8,7 +8,7 @@
 
 ## __About Me__
 I'm 25 years old design engineer in energy producing industry. 
-I'm new to front-end development, I'm here to test my strength and motivation in a new profession.
+I'm new to front-end development, so my goal here is to test my strength and motivation in a new profession.
 My strong sides are:
 - Good communication skills;
 - Skill to work in team;
