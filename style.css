@@ -1,6 +1,3 @@
-/* Не забыть cursor: pointer для всего кроме ссылок, что интерактивно */
-/* Фото норм разрешения закинуть */
-/* Ссылки на соцсети */
 html {
     scroll-behavior: smooth;   
 }
@@ -51,10 +48,7 @@ h3{
 }
 .main-container {
     display: flex;
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     flex-wrap: wrap;
-    /*flex-basis: fit-content;*/
     justify-content: space-between;
 }
 .section {
