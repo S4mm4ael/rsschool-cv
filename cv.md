@@ -24,18 +24,17 @@ My strong sides are:
 
 ## __Code example__
 ```
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Code example</title>
-    </head>
-    <body>
-        <p>Hello world!</p>
-    </body>
-</html>
+function reverse (n) {
+    let m = Math.abs(n);
+    return m.toString().split("").reverse().join("") 
+}
 ```
 
-## __Experience__
+## __Projects__
+ - [Portfolio](https://rolling-scopes-school.github.io/s4mm4ael-JSFEPRESCHOOL/portfolio/)
+ - [Sounds of Japan](https://rolling-scopes-school.github.io/s4mm4ael-JSFEPRESCHOOL/eco-sounds/)
+ - [Simple image gallery ](https://rolling-scopes-school.github.io/s4mm4ael-JSFEPRESCHOOL/image-gallery/)
+ - [Tic-Tac-Toe](https://rolling-scopes-school.github.io/s4mm4ael-JSFEPRESCHOOL/tic-tac-toe/)
 
 ## __Education__ 
 - __College:__ Minsk State Architectural and Сonstruction college, Industrial and Civil Construction major;
@@ -44,6 +43,7 @@ My strong sides are:
   - [Sololearn HTML](https://www.sololearn.com/Play/HTML/hoc)
   - [Sololearn CSS](https://www.sololearn.com/Play/CSS/hoc)
   - [BNTU Tecnical English course](https://bntu.by/all-services/languages)
+  - [RS School JS/FE - Stage 0](https://rs.school/)
  
  ## __English__
 - __English__ - __A2__ (I had been practicing English, when I attended Tecnical English courses).
