@@ -1,3 +1,14 @@
+:root {
+    --font1:54px;
+    --font2: 36px;
+    --font3: 24px;
+    --font4: 18px;
+    --color-green: #829985;
+    --color-white: #e7e7e6;
+    --color-black: #212021;
+    --color-hover: #bc6368;
+    --color-underline: #4d2323;
+  }
 html {
     scroll-behavior: smooth;   
 }
@@ -12,28 +23,28 @@ body{
     justify-content: flex-start;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: var(--font4);
     font-weight: 500;
     line-height: 1.5;
-    background-color: #212021;
-    color: #212021;
+    background-color: var(--color-black);
+    color: var(--color-black);
 }
 a{
-    color: #e7e7e6;
+    color: var(--color-white);
 }
 h1{
-    font-size: 54px;
-    border-bottom: 2px solid #212021 ;
+    font-size: var(--font1);
+    border-bottom: 2px solid var(--color-black);
 }
 h2{
-    font-size: 36px;
+    font-size: var(--font2);
 }
 
 h3{
     display: flex;
     vertical-align: baseline;
-    font-size: 24px;
-    border-bottom: 2px solid #4d2323 ;
+    font-size: var(--font3);
+    border-bottom: 2px solid var(--color-underline) ;
 }
 .container {
     max-width: 1440px;
@@ -44,7 +55,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #334142;
+    background-color: var(--color-green);
 }
 .main-container {
     display: flex;
@@ -55,7 +66,7 @@ h3{
     padding: 10px;
     margin: 1% 0; 
     width: calc(50% - 10px);
-    background-color: #e7e7e6;
+    background-color: var(--color-white);
     box-shadow: 10px 5px 5px #000000;
 }
 .section-about{
@@ -73,7 +84,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #334142;
+    background-color: var(--color-green);
 }
 .nav-list {
     display: flex;
@@ -89,11 +100,11 @@ h3{
     transition: .3s;
 }
 .nav-item:hover{
-    background: #bc6368;
+    background: var(--color-hover);
     transition: all 300ms;
 }
 .section-item a {
-    color: #829985;
+    color: var(--color-green);
     text-decoration: none;  
     transition: color 0.5s;
 }
@@ -102,9 +113,10 @@ h3{
 }
 .code{
     display: block;
+    overflow: hidden;
     font-family: monospace;
     background: #000000;
-    color: #bc6368;
+    color: var(--color-hover);
     white-space: pre-line;
 }
 .photo{
@@ -133,7 +145,7 @@ h3{
     text-decoration: none;
 }
 .courses-item a:hover{
-    background: #bc6368;
+    background: var(--color-hover);
     transition: all 300ms;
 }
 .rss-footer{
@@ -174,7 +186,7 @@ h3{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: #e7e7e6;
+    color: var(--color-white);
 }
 .list{
     display: block;
@@ -191,7 +203,7 @@ h3{
 }
 .contacts-item a{
     text-decoration: none;
-    color: #212021;
+    color: var(--color-black);
 }
 .contacts-item:before{
     content: "";
@@ -212,7 +224,7 @@ h3{
     background-image: url(assets/img/location.png);
 }
 .contacts-item a:hover{
-    background: #bc6368;
+    background: var(--color-hover);
     transition: all 300ms;
 }
 .languages-bold{
@@ -230,12 +242,44 @@ h3{
 .section-projects{
     width: 100%;
 }
-.project a{
-    text-decoration: none;
-    font-weight: 700;
-    color: #212021;
-}
+
 .project a:hover{
-    background: #bc6368;
+    background: var(--color-hover);
     transition: all 300ms;
 }
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-list-block{
+    min-height: 400px;
+    width: calc(50% - 40px);
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .project-list{
+     
+    }
+.project-list-item{
+    display: block;
+    font-size: var(--font2);
+    min-width: 300px;
+    min-height: 350px;
+    border: 2px solid var(--color-black);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--color-black);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--color-white);
+    transition: 0.2s;
+    background-size: cover;
+    cursor: pointer;
+  
+}
+.project-list-item:hover, .project-list-item:active      {
+    transform: translatey(-0.4em);
+}
+    
