@@ -144,7 +144,7 @@ h3{
     color: #334142;
     text-decoration: none;
 }
-.courses-item a:hover{
+.courses-item a:hover, .courses-item a:active{
     background: var(--color-hover);
     transition: all 300ms;
 }
@@ -259,10 +259,11 @@ h3{
     width: calc(50% - 40px);
     text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 855px) {
     .project-list{
-     
+     flex-direction: column;
     }
+}
 .project-list-item{
     display: block;
     font-size: var(--font2);
@@ -276,6 +277,7 @@ h3{
     color: var(--color-white);
     transition: 0.2s;
     background-size: cover;
+    background-position: center;
     cursor: pointer;
   
 }
