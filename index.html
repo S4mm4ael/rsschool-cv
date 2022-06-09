@@ -23,17 +23,21 @@
           <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
           <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
         </ul>
-        
       </nav>
      </div>
   </header>
   <main class="main">
     <div class="container main-container">
+      <div class="theme-change">
+        <p>Theme:</p>
+        <div class="change-item active" id="light"> LIGHT </div>
+        <div class="change-item" id="dark"> DARK </div>
+      </div>
       <div class="lang-change">
-        <p>CV version:</p>
-        <div class="lang-change-item active" id="eng"> ENG </div>
-        <div class="lang-change-item" id="rus"> RUS </div>
-        <div class="lang-change-item" id="bel"> BEL </div>
+        <p>Language:</p>
+        <div class="change-item active" id="eng"> ENG </div>
+        <div class="change-item" id="rus"> RUS </div>
+        <div class="change-item" id="bel"> BEL </div>
       </div>
       <section class="section section-profile" id="profile">
         <img src="assets/img/photo.png" alt="Photo" class="photo">
@@ -41,7 +45,6 @@
           <h1>Semion Krapivin</h1>
           <h2>Junior Front-end developer</h2>
         </div>
-       
       </section>
       <section class="section" id="contacts">
         <h3 class="section-title"><img class="icon" src="assets/svg/contacts.svg" alt="contacts-icon"> Contacts</h3>
@@ -58,7 +61,7 @@
           <li>CSS/SASS (Basic)</li>
           <li>JavaScript (Basic)</li>
           <li>Git (Basic)</li>
-          <li>NodeJS</li>
+          <li>NodeJS (Basic)</li>
           <li>Git (Basic)</li>
         </ul>
       </section>
@@ -154,7 +157,6 @@
             <h2 class="h2-projects">Meme slider</h2>
             <a class="project-list-item" style="background-image: url(./assets/png/7.png)" href="https://s4mm4ael.github.io/cssMemSlider/"></a>
           </div>
-
         </div>
       </section>
     </div>
@@ -172,6 +174,7 @@
       <a class="rss-link" href="https://rs.school/js/"><img class="rss-logo" src="assets/svg/rs_school.svg" alt="rss"></a>
       <p class="credits">© 2021 Semion Krapivin</p>
   </div>
+  <script type="module" src="./index.js"></script>
   </footer>
 </body>
 </html>
