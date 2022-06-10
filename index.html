@@ -15,13 +15,13 @@
     <div class="container header-container">
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-          <li class="nav-item"><a href="#about" class="nav-link">Summary</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
-          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link" data-lng="contacts">Contacts</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link" data-lng="summary">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link" data-lng="skills">Skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link" data-lng="code">Code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link" data-lng="education">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link" data-lng="languages">Languages</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link" data-lng="projects">Projects</a></li>
         </ul>
       </nav>
      </div>
@@ -29,33 +29,33 @@
   <main class="main">
     <div class="container main-container">
       <div class="theme-change">
-        <p>Theme:</p>
-        <div class="change-item active" id="light"> LIGHT </div>
-        <div class="change-item" id="dark"> DARK </div>
+        <p data-lng="theme">Theme:</p>
+        <div class="change-item active" id="light" data-lng="light"> LIGHT </div>
+        <div class="change-item" id="dark" data-lng="dark"> DARK </div>
       </div>
       <div class="lang-change">
-        <p>Language:</p>
-        <div class="change-item active" id="eng"> ENG </div>
-        <div class="change-item" id="rus"> RUS </div>
-        <div class="change-item" id="bel"> BEL </div>
+        <p data-lng="language">Language:</p>
+        <div class="change-item active" id="eng" data-lng="eng"> ENG </div>
+        <div class="change-item" id="rus" data-lng="rus"> RUS </div>
+        <div class="change-item" id="bel" data-lng="bel"> BEL </div>
       </div>
       <section class="section section-profile" id="profile">
         <img src="assets/img/photo.png" alt="Photo" class="photo">
         <div class="name">
-          <h1>Semion Krapivin</h1>
-          <h2>Junior Front-end developer</h2>
+          <h1 data-lng="name">Semion Krapivin</h1>
+          <h2 data-lng="profession">Junior Front-end developer</h2>
         </div>
       </section>
       <section class="section" id="contacts">
-        <h3 class="section-title"><img class="icon" src="assets/svg/contacts.svg" alt="contacts-icon"> Contacts</h3>
+        <h3 class="section-title"><img class="icon" src="assets/svg/contacts.svg" alt="contacts-icon" data-lng="contacts">Contacts</h3>
         <ul class="list contacts-list">
           <li class="contacts-item"><a  href="tel:+375447253087">+375 (44) 725-30-87</a></li>
           <li class="contacts-item"><a  href="mailto:homer1996@gmail.com">homer1996@gmail.com</a></li>
-          <li class="contacts-item">Minsk, Belarus</li>
+          <li class="contacts-item" data-lng="adress">Minsk, Belarus</li>
         </ul>
       </section>
       <section class="section" id="skills">
-        <h3 class="section-title"><img class="icon" src="assets/svg/skills.svg" alt="skills-icon">Skills</h3>
+        <h3 class="section-title"><img class="icon" src="assets/svg/skills.svg" alt="skills-icon" data-lng="skills">Skills</h3>
         <ul class="list skills-list">
           <li>HTML (Basic)</li>
           <li>CSS/SASS (Basic)</li>
@@ -66,39 +66,39 @@
         </ul>
       </section>
       <section class="section section-about" id="about">
-        <h3 class="section-title"><img class="icon" src="assets/svg/cat.svg" alt="about-icon">About me</h3>
-        <p>
+        <h3 class="section-title"><img class="icon" src="assets/svg/cat.svg" alt="about-icon" data-lng="about">About me</h3>
+        <p data-lng="about-text">
           I'm 25 years old design engineer in energy producing industry. 
           I'm new to front-end development, I'm here to test my strength and motivation in a new profession.
         </p>  
-        <h4>My strenghts:</h4>
+        <h4 data-lng="strenghts">My strenghts:</h4>
         <ul class="list about-list">
-          <li>Good communication skills</li>
-          <li>Skill to work in team</li>
-          <li>Responsibility</li>
-          <li>Dependability</li>
-          <li>Great willing to learn and develop new skills</li>
+          <li data-lng="strenght1">Good communication skills</li>
+          <li data-lng="strenght2">Skill to work in team</li>
+          <li data-lng="strenght3">Responsibility</li>
+          <li data-lng="strenght4">Dependability</li>
+          <li data-lng="strenght5">Great willing to learn and develop new skills</li>
         </ul>
       </section>
       <section class="section section-education" id="education">
-        <h3 class="section-title"><img class="icon" src="assets/svg/edu.svg" alt="education-icon">Education</h3>
+        <h3 class="section-title"><img class="icon" src="assets/svg/edu.svg" alt="education-icon" data-lng="education">Education</h3>
         <ul class="section-list">
           <li>
-            <h4>College</h4>
-            <p>Minsk State Architectural and Сonstruction college, Industrial and Civil Construction major</p>
+            <h4 data-lng="college">College</h4>
+            <p data-lng="college-text">Minsk State Architectural and Сonstruction college, Industrial and Civil Construction major</p>
           </li>
           <li>
-            <h4>University</h4>
-            <p>National Technical University, Power Plants Engineering major</p>
+            <h4 data-lng="university">University</h4>
+            <p data-lng="university-text">National Technical University, Power Plants Engineering major</p>
           </li>
         </ul>
-        <h4>Courses</h4>
+        <h4 data-lng="courses">Courses</h4>
         <ul class="list education-list">
           <li class="courses-item"><a href="https://www.sololearn.com/Play/HTML/hoc">Sololearn HTML</a>
           </li>
           <li class="courses-item"><a href="https://www.sololearn.com/Play/CSS/hoc">Sololearn CSS</a>
           </li>
-          <li class="courses-item"><a href="https://bntu.by/all-services/languages">BNTU Tecnical English course</a>
+          <li class="courses-item"><a href="https://bntu.by/all-services/languages" data-lng="courses3">BNTU Tecnical English course</a>
           </li>
           <li class="courses-item"><a href="https://rs.school/">RS School JS/FE - Stage 0</a>
           </li>
@@ -107,7 +107,7 @@
         </ul>
       </section>
       <section class="section" id="code-example">
-        <h3 class="section-title"><img class="icon" src="assets/svg/code.svg" alt="code-icon">Code example</h3>
+        <h3 class="section-title"><img class="icon" src="assets/svg/code.svg" alt="code-icon" data-lng="code">Code example</h3>
         <pre class="code">
             function reverse (n) {
             let m = Math.abs(n);
@@ -116,18 +116,18 @@
         </pre>
       </section>
       <section class="section" id="languages">
-        <h3 class="section-title"><img class="icon" src="assets/svg/lang-com.svg" alt="language-icon">Languages</h3>
+        <h3 class="section-title"><img class="icon" src="assets/svg/lang-com.svg" alt="language-icon" data-lng="languages">Languages</h3>
         <ul class="list languages-list">
-          <li class="languages-item"><span class="languages-bold">English - A2</span> 
+          <li class="languages-item"><span class="languages-bold" data-lng="language1">English - A2</span> 
           </li>
-          <li class="languages-item"><span class="languages-bold">Belarusian - Native</span> 
+          <li class="languages-item"><span class="languages-bold" data-lng="language2">Belarusian - Native</span> 
           </li>
-          <li class="languages-item"><span class="languages-bold">Russian - Native</span> 
+          <li class="languages-item"><span class="languages-bold" data-lng="language3">Russian - Native</span> 
           </li>
         </ul>
       </section>
       <section class="section-projects" id="projects">
-        <h3 class="section-title"><img class="icon" src="assets/svg/project.svg" alt="projects-icon">Projects</h3>
+        <h3 class="section-title"><img class="icon" src="assets/svg/project.svg" alt="projects-icon" data-lng="projects">Projects</h3>
         <div class="project-list">
           <div class="project-list-block">
             <h2 class="h2-projects">Portfolio</h2>
@@ -172,7 +172,7 @@
         </ul>
       </div>
       <a class="rss-link" href="https://rs.school/js/"><img class="rss-logo" src="assets/svg/rs_school.svg" alt="rss"></a>
-      <p class="credits">© 2021 Semion Krapivin</p>
+      <p class="credits" data-lng="credits">© 2021 Semion Krapivin</p>
   </div>
   <script type="module" src="./index.js"></script>
   </footer>
