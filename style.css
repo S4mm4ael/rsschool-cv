@@ -50,7 +50,6 @@ h3{
   display: flex;
   vertical-align: baseline;
   font-size: var(--font3);
-  border-bottom: 2px solid var(--color-underline) ;
 }
 
 .container {
@@ -86,7 +85,10 @@ h3{
 .section-education{
   width: 100%;
 }
-
+.section-title{
+  display: flex;
+  border-bottom: 2px solid var(--color-underline) ;
+}
 @media (max-width: 768px) {
    
    .section {
